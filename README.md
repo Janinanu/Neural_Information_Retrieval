@@ -2,7 +2,7 @@
 This project explores the potential of neural NLP methods for the purpose of document similarity detection and information retrieval.
 
 The dataset used is a database of consumer complaints that were collected by the Consumer Financial Protection Bureau of the United States of America. It is downloaded from https://catalog.data.gov/dataset/consumer-complaint-database.
-The complaints were submitted by customers of different US-American banks concerning issues about a variety of financial products and services. The most import fields in the dataset are the consumer complaint itself, i.e., the text that the customer submitted to the bank, the financial product or service that is concerned, e.g. ``Student Loan'' or ``Debt Collection'', as well as the issue that the customer is facing, e.g. ``Incorrect information''.
+The complaints were submitted by customers of different US-American banks concerning issues about a variety of financial products and services. The most import fields in the dataset are the consumer complaint itself, i.e., the text that the customer submitted to the bank, the financial product or service that is concerned, e.g. "Student Loan" or "Debt Collection", as well as the issue that the customer is facing, e.g. "Incorrect information".
 
 Given a search query, the task is to find the most similar documents in the database and rank the results by a similarity score. Special focus lies on finding the most similar documents to queries that describe frequently occuring complaints.
 
